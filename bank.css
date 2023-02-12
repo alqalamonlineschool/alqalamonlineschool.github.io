@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  div{
+    margin: 5%;
+  }
+  .lower{
+    padding-bottom: 24px;
+  }
+  .regbut {
+    margin: 35%;
+    /* margin-top: 200%; */
+    text-decoration: none;
+    padding: 2%;
+    padding-left: 14%;
+    padding-right: 14%;
+    
+    
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2EE59D;
+    border: none;
+    border-radius: 145px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  .regbut:hover {
+    background-color: #01ff8d;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .backbut{
+    margin-left: 24%;
+    text-decoration: none;
+    padding: 2%;
+    padding-left: 14%;
+    padding-right: 14%;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #1378a0;
+    border: none;
+    border-radius: 145px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  .backbut:hover {background-color: #01ff8d;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);}
+  .main{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: larger;
+    
+    
+  }
+  /* .regbut{
+    background-color: #100ce2;
+    color: rgb(255, 255, 255);
+    margin-left: 50%;
+    margin-top: 4px;
+  } */
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    background-color:rgb(243, 242, 242);
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    
+    
+  }
+  .titlecenter {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .tabletitle{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+  }
+  .rlists{
+    padding-top: 2%;
+    margin-top: 7%;
+  }
+  .rlists  a{
+    padding-top: 0%;
+    margin-top: 0;
+    padding: 5%;
+  }
+  .fullwidth {
+    width:100%;
+    margin-bottom: 20px;
+    margin-left:0;
+    margin-top: 2px;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    font-weight: bolder;
+    text-align:center; /*This will result in centering the link text, which is probably what you want -brianjohnsondesign.com*/
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    /* border: ; */
+    /* border-bottom: 14px; */
+    box-shadow: 0px 8px 15px rgba(255, 0, 0, 0.1);
+    color:#ffffff;
+}
