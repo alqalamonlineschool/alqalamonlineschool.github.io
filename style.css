@@ -41,6 +41,7 @@ body{
     top: 70px;
     background-color: rgb(78, 77, 77);
     font-size: larger;
+    z-index: 99;
 
 }
 .center{
@@ -90,6 +91,7 @@ body{
     z-index: 100; /* Make sure it does not overlap */
    width: 50px;
    height: 50px;
+
 }
   
 .white{
