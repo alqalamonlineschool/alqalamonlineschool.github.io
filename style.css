@@ -97,3 +97,19 @@ body{
 .white{
     color: aliceblue;
 }
+footer{
+    background-color:rgb(68, 68, 68);
+    text-align: center;
+    font-size: 15px;
+    color:#adadad;
+    
+}
+footer a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+}
+footer a:hover{
+    color:rgb(5, 105, 255);
+}
